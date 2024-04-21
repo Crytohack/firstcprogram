@@ -80,10 +80,10 @@ namespace week4
             Player[] p = new Player[no_of_user];
             for(int i=0; i<no_of_user;i++)
             {
-                Console.WriteLine("Enter player name:");
+                Console.WriteLine("Enter players name:");
                 name = Console.ReadLine();
                 
-                Console.WriteLine("Registration type:");
+                Console.WriteLine("Registrations type:");
                 type = Console.ReadLine();
                 Console.WriteLine("Enter yes/no to indicate whether you want a jersey:");
                 jersey = Console.ReadLine();
